@@ -10,7 +10,7 @@ public class Main {
         Book dogHeart = new Book("Собачье сердце", Bulgakov, 1925);
         Book dogHeart2 = dogHeart;
         System.out.println(dogHeart.equals(dogHeart2));
-        System.out.println("Название книги - " + dogHeart.getName() );
+        System.out.println(" Название книги - " + dogHeart.getName() );
         System.out.println("Год издания - " + dogHeart.getYear());
         printSeparator();
         Author Gogol = new Author("Николай","Гоголь");

@@ -12,6 +12,6 @@ public class Author {
         return this.surname;
     }
     public String toString() {
-        return "Имя автора = '" + name + '\'';
+        return " Имя автора = '" + name + '\'';
     }
 }

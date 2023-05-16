@@ -17,10 +17,6 @@ public class Book {
         return this.author;
     }
 
-    public String toString() {
-        return "Имя автора = '" + author + '\'';
-    }
-
 
     public void setYear(int year) {
         this.year = year;
