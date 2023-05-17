@@ -18,6 +18,7 @@ public class Author {
     public String toString() {
         return "Имя автора = '" + name + '\'';
     }
+
 }
 
 

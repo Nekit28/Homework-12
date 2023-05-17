@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Автор - " + Gogol.getName() + " " + Gogol.getSurname());
         Book Viy = new Book("Вий",Gogol,1834);
         System.out.println("Название книги - " + Viy.getName());
-        System.out.println(" Год издания - " + Viy.getYear());
+        System.out.println("Год издания - " + Viy.getYear());
         Viy.setYear(1835);
         System.out.println("Год издания - " + Viy.getYear());
         printSeparator();
