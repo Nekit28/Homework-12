@@ -8,8 +8,10 @@ public class Main {
         System.out.println("Автор - " + Bulgakov.getName() + " " + Bulgakov.getSurname());
         System.out.println(Bulgakov.toString());
         Book dogHeart = new Book("Собачье сердце", Bulgakov, 1925);
-        Book dogHeart2 = dogHeart;
-        System.out.println(dogHeart.equals(dogHeart2));
+        Book dogHeart2  = new Book("Собачье сердце", Bulgakov, 1925);
+        System.out.println(dogHeart2.equals(dogHeart));
+        System.out.println(dogHeart.hashCode());
+        System.out.println(dogHeart2.hashCode());
         System.out.println(" Название книги - " + dogHeart.getName() );
         System.out.println("Год издания - " + dogHeart.getYear());
         printSeparator();
